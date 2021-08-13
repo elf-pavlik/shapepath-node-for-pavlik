@@ -1,5 +1,7 @@
 # shapepath-node-for-pavlik
-typescript @shexjs/shape-path-query demo for Elf Pavlik
+typescript `@shexjs/shape-path-query` demo for Elf Pavlik
+
+(Note that I changed from installing the old `shex` package to `@shexjs/node`, which inspired the name of this repo.)
 
 ``` shell
 PS1=10:12:24-eric@touchy:/tmp/checkouts/ericprud/shapepath-node-for-pavlik$ npm ci
@@ -14,7 +16,7 @@ added 149 packages, and audited 150 packages in 2s
 
 found 0 vulnerabilities
 ```
-apparently the including tsconfig.json needs tweaking:
+Apparently the including tsconfig.json needs tweaking:
 ``` bash
 PS1=10:14:43-eric@touchy:/tmp/checkouts/ericprud/shapepath-node-for-pavlik$ tsc
 shapepath.ts:4:26 - error TS7016: Could not find a declaration file for module '@shexjs/api'. '/tmp/checkouts/ericprud/shapepath-node-for-pavlik/node_modules/@shexjs/api/shex-api.js' implicitly has an 'any' type.
