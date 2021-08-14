@@ -17,5 +17,8 @@
     "n3": "^1.11.1",
     "node-fetch": "^2.6.1",
     "shape-path-core": "^0.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
   }
 }
